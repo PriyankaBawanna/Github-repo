@@ -1,0 +1,85 @@
+.deatilscard {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 200px;
+  margin-left: 630px;
+}
+.userid {
+  position: relative;
+}
+.UserDeatils_card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #afeeee;
+  width: 590px;
+  height: 500px;
+}
+.photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+.UserRepo {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #89cff0;
+
+  margin-left: 50px;
+  margin-top: 0px;
+  width: 955px;
+  display: inline;
+}
+.list_repo {
+  display: flex;
+  flex-direction: column;
+}
+.combin {
+  display: flex;
+  flex-direction: row;
+  /*border: solid;
+   border-color: red; hole body boder*/
+}
+.List_repo_heading {
+  font-style: italic;
+  color: #89cff0;
+}
+.user_info {
+  color: #89cff0;
+}
+.Btn {
+  border: none;
+  color: #89cff0;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: #89cff0;
+  border: 2px solid #89cff0;
+}
+.Btn:hover {
+  background-color: #89cff0;
+  color: white;
+}
+.userInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #89cff0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.inputfiled {
+  display: flex;
+  flex-direction: row;
+}
